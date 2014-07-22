@@ -3,7 +3,7 @@ forum-watcher
 
 A fairly primitive tool for scraping forums. The approach is:
 
-- Parse a forum for thread topics and URLS
+- Use xpath to yank thread topics and URLs
 - Apply a regex pattern to thread topic (or the contents of each individual thread)
 - E-mail on match
 
